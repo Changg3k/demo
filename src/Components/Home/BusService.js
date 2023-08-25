@@ -1,9 +1,9 @@
 // Product.js
 import React from "react";
 import { data } from "./data";
-import "./Product.css";
+import "./BusService.css";
 
-export default function Product() {
+export default function BusService() {
   return (
     <section className="product">
       <div className="container">
