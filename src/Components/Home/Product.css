@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.product {
+  padding: 30px;
+  color: #fb8579;
+}
+
+.product-item {
+  display: inline-block;
+  width: 20%;
+  margin: 0 10px; /* Thêm khoảng cách ngang giữa các ô */
+  padding: 10px;
+  box-sizing: border-box;
+  border: 5px solid #fb8579; /* Đổi lại cấu trúc viền */
+  background-color: #f1e0b0;
+  text-align: center;
+  vertical-align: top;
+}
+
+.product-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-item h5 {
+  font-size: 16px;
+  color: #333;
+}
+
+.product-item p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Hiển thị 5 ô sản phẩm trong một hàng */
+.product-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+/* Thêm khoảng cách dưới mỗi hàng */
+.product-row + .product-row {
+  margin-top: 20px;
+}
+/* Product.css */
+.product {
+  padding: 30px;
+  color: aliceblue;
+  margin-top: 20px; /* Khoảng cách trên */
+  margin-bottom: 20px; /* Khoảng cách dưới */
+}
+.product-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 100px; /* Khoảng cách giữa các dòng */
+}
+/* Product.css */
+/* ... (các phần CSS khác) */
+
+.product-item h5 a {
+  text-decoration: none; /* Loại bỏ gạch dưới */
+  color: #333;
+}
+
+.product-item h5 a:hover {
+  text-decoration: underline; /* Hiển thị gạch dưới khi hover */
+}
