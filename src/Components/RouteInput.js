@@ -1,8 +1,8 @@
 import React from "react";
 
-const Ticket = () => {
+const RouteInput = () => {
   return (
-    <ticket>
+    <routeInput>
       <div className="search-container">
         <div className="nhap">
           <h3>Chọn địa điểm muốn đến nào:</h3>
@@ -30,8 +30,8 @@ const Ticket = () => {
         </form>
       </div>
       );
-    </ticket>
+    </routeInput>
   );
 };
 
-export default Ticket;
+export default RouteInput;

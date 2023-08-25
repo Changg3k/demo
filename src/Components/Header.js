@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
+import axios from "axios";
 
 const Header = () => {
   return (
